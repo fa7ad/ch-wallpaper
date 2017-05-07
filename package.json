@@ -1,0 +1,47 @@
+{
+  "name": "ch-wallpaper",
+  "version": "1.0.0",
+  "private": false,
+  "license": "MIT",
+  "main": "public/main.electron.js",
+  "homepage": "./",
+  "repository": "fa7ad/ch-wallpaper",
+  "dependencies": {
+    "@fa7ad/wallpaper": "^2.4.2-a",
+    "file-url": "^2.0.2",
+    "glob": "^7.1.1",
+    "image-size": "^0.5.1",
+    "legit-image": "^0.1.4",
+    "lodash": "^4.17.4",
+    "mobx": "^3.1.9",
+    "mobx-react": "^4.1.8",
+    "react": "^15.5.4",
+    "react-desktop": "^0.3.0",
+    "react-dom": "^15.5.4",
+    "react-icons": "^2.2.5"
+  },
+  "devDependencies": {
+    "cross-env": "^4.0.0",
+    "electron": "^1.6.6",
+    "npm-run-all": "^4.0.2",
+    "react-scripts": "0.9.5",
+    "standard": "^10.0.2",
+    "wait-on": "^2.0.2"
+  },
+  "scripts": {
+    "start": "run-p 'react' 'run-electron'",
+    "electron": "cross-env SERVER_URI='http://localhost:3000' electron .",
+    "run-electron": "wait-on http://localhost:3000 && npm run electron",
+    "react": "react-scripts start",
+    "build": "react-scripts build",
+    "postbuild": "electron build",
+    "lint": "standard",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "standard": {
+    "ignore": [
+      "build/*"
+    ]
+  }
+}
