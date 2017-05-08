@@ -29,12 +29,11 @@
     "wait-on": "^2.0.2"
   },
   "scripts": {
-    "start": "run-p 'react' 'run-electron'",
-    "electron": "cross-env SERVER_URI='http://localhost:3000' electron .",
-    "run-electron": "wait-on http://localhost:3000 && npm run electron",
+    "start": "run-p react electron",
+    "electron": "wait-on tcp:3000&& cross-env REACT=on electron .",
+    "electron:prod": "electron build",
     "react": "react-scripts start",
-    "build": "react-scripts build",
-    "postbuild": "electron build",
+    "build": "react-scripts build&& echo Now run 'npm run electron:prod'",
     "lint": "standard",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
