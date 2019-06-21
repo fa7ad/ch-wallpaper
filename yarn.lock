@@ -2344,9 +2344,9 @@ file-loader@0.10.0:
   dependencies:
     loader-utils "~0.2.5"
 
-file-url@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/file-url/-/file-url-2.0.2.tgz#e951784d79095127d3713029ab063f40818ca2ae"
+file-url@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/file-url/-/file-url-3.0.0.tgz#247a586a746ce9f7a8ed05560290968afc262a77"
 
 filename-regex@^2.0.0:
   version "2.0.1"
