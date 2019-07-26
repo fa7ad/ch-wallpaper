@@ -12,7 +12,7 @@
     "glob": "^7.1.4",
     "image-size": "^0.7.4",
     "legit-image": "^0.1.4",
-    "lodash": "^4.17.14",
+    "lodash": "^4.17.15",
     "mobx": "^3.6.2",
     "mobx-react": "^4.4.3",
     "react": "^16.8.6",
