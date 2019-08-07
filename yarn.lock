@@ -3076,9 +3076,9 @@ electron-to-chromium@^1.3.122, electron-to-chromium@^1.3.164:
   version "1.3.172"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.172.tgz#1eafb3afdc47bcb9c2a2249b2736be352016da4b"
 
-electron@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-6.0.0.tgz#03712d461ac73cdf920b2336d6560d6c6b7f19cc"
+electron@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-6.0.1.tgz#9dcdb3773e933890f432403f2ff5851cffbea126"
   dependencies:
     "@types/node" "^10.12.18"
     electron-download "^4.1.0"
