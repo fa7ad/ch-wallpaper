@@ -4347,9 +4347,11 @@ ignore@^5.0.0, ignore@^5.1.1:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.1.2.tgz#e28e584d43ad7e92f96995019cc43b9e1ac49558"
 
-image-size@^0.7.4:
-  version "0.7.4"
-  resolved "https://registry.yarnpkg.com/image-size/-/image-size-0.7.4.tgz#092c1e541a93511917bfc957a1fc7add21c72e87"
+image-size@^0.8.2:
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/image-size/-/image-size-0.8.2.tgz#9b5cef7a18a0991beba861b731fb4cfe7a45822d"
+  dependencies:
+    queue "6.0.1"
 
 immer@1.10.0:
   version "1.10.0"
@@ -7323,6 +7325,12 @@ querystring@0.2.0:
 querystringify@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.1.1.tgz#60e5a5fd64a7f8bfa4d2ab2ed6fdf4c85bad154e"
+
+queue@6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/queue/-/queue-6.0.1.tgz#abd5a5b0376912f070a25729e0b6a7d565683791"
+  dependencies:
+    inherits "~2.0.3"
 
 radium@=0.19.6:
   version "0.19.6"
