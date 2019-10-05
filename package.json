@@ -10,7 +10,7 @@
     "@fa7ad/wallpaper": "^2.4.2-a",
     "file-url": "^3.0.0",
     "glob": "^7.1.4",
-    "image-size": "^0.8.2",
+    "image-size": "^0.8.3",
     "legit-image": "^0.1.4",
     "lodash": "^4.17.15",
     "mobx": "^3.6.2",
