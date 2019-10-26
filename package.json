@@ -18,7 +18,7 @@
     "react": "^16.11.0",
     "react-desktop": "^0.3.9",
     "react-dom": "^16.11.0",
-    "react-icons": "^3.7.0"
+    "react-icons": "^3.8.0"
   },
   "devDependencies": {
     "cross-env": "^6.0.3",
